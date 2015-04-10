@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/AbsoluteLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.parse.ParseImageView
+        android:id="@+id/imageView1"
+        android:layout_width="51dp"
+        android:layout_height="51dp"
+        android:layout_x="13dp"
+        android:layout_y="6dp"
+        android:src="@drawable/inspiration_6" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="78dp"
+        android:layout_y="22dp"
+        android:text="Small Text"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="23dp"
+        android:layout_x="228dp"
+        android:layout_y="20dp"
+        android:src="@drawable/detail" />
+
+</AbsoluteLayout>

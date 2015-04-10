@@ -1,0 +1,60 @@
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/AbsoluteLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    
+    tools:context=".SplashActivity" >
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="345dp"
+        android:layout_height="401dp"
+        android:layout_x="7dp"
+        android:layout_y="79dp"
+        android:background="@drawable/loginback" >
+
+    </ListView>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="14dp"
+        android:layout_y="56dp"
+        android:text="Created Groups"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/button1"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="98dp"
+        android:layout_height="34dp"
+        android:layout_x="12dp"
+        android:layout_y="7dp"
+        android:background="@drawable/newgroup"
+        android:text="New Group"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/button2"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="129dp"
+        android:layout_height="34dp"
+        android:layout_x="215dp"
+        android:layout_y="7dp"
+        android:background="@drawable/newgroup"
+        android:text="Following Groups"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="145dp"
+        android:layout_y="491dp"
+        android:text="Logout"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+</AbsoluteLayout>

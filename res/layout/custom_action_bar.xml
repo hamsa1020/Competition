@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/actionBar"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="7dp" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="258dp"
+        android:layout_y="1dp"
+        android:src="@drawable/search" />
+
+    <AutoCompleteTextView
+        android:id="@+id/AndroidBooks"
+        android:layout_width="286dp"
+        android:layout_height="wrap_content"
+        android:layout_x="16dp"
+        android:layout_y="0dp"
+        android:ems="10" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="276dp"
+        android:layout_y="12dp"
+        android:src="@drawable/cross" />
+
+    <TextView
+        android:id="@+id/titleFragment1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="4dp"
+        android:layout_y="5dp"
+        android:gravity="center"
+        android:text="Exam"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/titleFragment2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="50dp"
+        android:layout_y="5dp"
+        android:gravity="center"
+        android:text="Guide"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+</AbsoluteLayout>

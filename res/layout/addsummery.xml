@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/AbsoluteLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_x="19dp"
+        android:layout_y="34dp"
+        android:background="@drawable/hhh"
+        android:ems="10"
+        android:hint="Summeryname"
+        android:paddingLeft="10dp"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="20dp"
+        android:layout_y="92dp"
+        android:text="This Part was :"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <RadioGroup
+        android:id="@+id/radioOpenion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="34dp"
+        android:layout_y="114dp" >
+
+        <RadioButton
+            android:id="@+id/radioButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Easy" />
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Difficult" />
+
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Between" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button1"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="142dp"
+        android:layout_height="34dp"
+        android:layout_x="105dp"
+        android:layout_y="464dp"
+        android:background="@drawable/signup_b"
+        android:text="Submit Summery"
+        android:textColor="#ffffff" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="312dp"
+        android:layout_height="227dp"
+        android:layout_x="25dp"
+        android:layout_y="216dp"
+        android:background="@drawable/uuu"
+        android:ems="10"
+        android:gravity="left|start"
+        android:hint="Add your Summery HERE"
+        android:inputType="textMultiLine"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp" />
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="94dp"
+        android:layout_height="43dp"
+        android:layout_x="221dp"
+        android:layout_y="32dp" />
+
+</AbsoluteLayout>
